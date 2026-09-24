@@ -1,0 +1,10 @@
+[2026-09-24 17:42:49] BCRP API | series: 6 | periodo 2023-1 a 2025-12 | filas: 216
+[2026-09-24 12:50:22] === Inicio 01_extraccion_api.py (BCRP API) ===
+[2026-09-24 12:50:23] PN07816NM (tipmn_banca) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN07816NM/json/2023-1/2025-12
+[2026-09-24 12:50:24] PN07812NM (tasa_plazo_30d) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN07812NM/json/2023-1/2025-12
+[2026-09-24 12:50:25] PN07813NM (tasa_plazo_180d) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN07813NM/json/2023-1/2025-12
+[2026-09-24 12:50:27] PN07814NM (tasa_plazo_360d) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN07814NM/json/2023-1/2025-12
+[2026-09-24 12:50:28] PN07815NM (tasa_plazo_mas360) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN07815NM/json/2023-1/2025-12
+[2026-09-24 12:50:29] PD04722MM (tasa_referencia_bcrp) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04722MM/json/2023-1/2025-12
+[2026-09-24 12:50:30] Guardado datos_crudos_bcrp_2024200504J.csv | filas: 216
+[2026-09-24 12:50:30] === Fin 01_extraccion_api.py ===
