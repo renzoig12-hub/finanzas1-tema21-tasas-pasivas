@@ -439,3 +439,22 @@
 [2026-09-24 23:36:20]    Caja municipal: 36 meses, 414 filas
 [2026-09-24 23:36:20] Indicadores que fallaron: ninguno
 [2026-09-24 23:36:20] === Fin 02_scraping_web.py ===
+[2026-09-25 19:41:53] === Inicio 03_limpieza_datos.py ===
+[2026-09-25 19:41:53] Tasas: 1355 filas, 40 entidades
+[2026-09-25 19:41:53] Indicadores: 1353 filas, 41 entidades
+[2026-09-25 19:41:53] BCRP: 36 meses, series: ['tasa_plazo_180d', 'tasa_plazo_30d', 'tasa_plazo_360d', 'tasa_plazo_mas360', 'tasa_referencia_bcrp', 'tipmn_banca']
+[2026-09-25 19:41:53] AVISO: 5 filas de tasas sin indicadores: ['Crediscotia', 'Qapaq']
+[2026-09-25 19:41:53] Indicadores sin tasas (quedan fuera, no tienen Y): ['F:Financiera Santander Consumer']
+[2026-09-25 19:41:53] Valores atípicos marcados en plazo_181_360d: 0
+[2026-09-25 19:41:54] Guardado datos_procesados_2024200504J.csv | filas: 1355 | columnas: 23
+[2026-09-25 19:41:54] SHA-256: 9bbc1f95cddf41db0ffa8e942ddadc6d41376ee6da35b5aec20ec4d006fa079c
+[2026-09-25 19:41:54]    Banco: 19 entidades, 631 filas
+[2026-09-25 19:41:54]    Financiera: 10 entidades, 310 filas
+[2026-09-25 19:41:54]    Caja municipal: 12 entidades, 414 filas
+[2026-09-25 19:41:54] Datos disponibles (no faltantes) por variable principal:
+[2026-09-25 19:41:54]    plazo_181_360d: 1195 de 1355
+[2026-09-25 19:41:54]    plazo_promedio: 1299 de 1355
+[2026-09-25 19:41:54]    morosidad: 1350 de 1355
+[2026-09-25 19:41:54]    ratio_capital_global: 1350 de 1355
+[2026-09-25 19:41:54]    tasa_referencia_bcrp: 1355 de 1355
+[2026-09-25 19:41:54] === Fin 03_limpieza_datos.py ===
