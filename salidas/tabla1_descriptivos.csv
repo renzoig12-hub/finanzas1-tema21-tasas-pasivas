@@ -1,0 +1,21 @@
+,,Banco,Caja municipal,Financiera
+plazo_181_360d,count,486.0,393.0,227.0
+plazo_181_360d,mean,5.34,5.66,6.32
+plazo_181_360d,std,1.58,1.69,1.41
+plazo_181_360d,min,2.76,1.69,4.19
+plazo_181_360d,max,8.57,9.0,8.84
+morosidad,count,486.0,393.0,227.0
+morosidad,mean,4.15,6.94,7.17
+morosidad,std,1.44,2.03,2.54
+morosidad,min,0.0,3.79,3.02
+morosidad,max,7.54,12.88,12.9
+ratio_capital_global,count,486.0,393.0,227.0
+ratio_capital_global,mean,17.47,14.38,17.38
+ratio_capital_global,std,7.88,1.6,4.86
+ratio_capital_global,min,9.21,10.01,8.7
+ratio_capital_global,max,117.19,18.4,28.85
+tasa_referencia_bcrp,count,486.0,393.0,227.0
+tasa_referencia_bcrp,mean,5.92,5.9,6.04
+tasa_referencia_bcrp,std,1.3,1.3,1.28
+tasa_referencia_bcrp,min,4.25,4.25,4.25
+tasa_referencia_bcrp,max,7.75,7.75,7.75

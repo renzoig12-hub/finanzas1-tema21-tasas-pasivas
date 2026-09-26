@@ -1,0 +1,5 @@
+vista_*.xlsx
+*.zip
+.env
+__pycache__/
+.ipynb_checkpoints/

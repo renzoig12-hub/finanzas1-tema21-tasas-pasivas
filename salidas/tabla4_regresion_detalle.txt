@@ -1,0 +1,93 @@
+===== (1) Principal =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         plazo_181_360d   R-squared:                       0.575
+Model:                            OLS   Adj. R-squared:                  0.573
+Method:                 Least Squares   F-statistic:                     44.08
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           3.49e-13
+Time:                        03:36:34   Log-Likelihood:                -1633.7
+No. Observations:                1106   AIC:                             3279.
+Df Residuals:                    1100   BIC:                             3310.
+Df Model:                           5                                         
+Covariance Type:              cluster                                         
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                        0.4003      0.709      0.565      0.572      -0.989       1.789
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Caja municipal]     0.6816      0.335      2.035      0.042       0.025       1.338
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Financiera]         1.2119      0.296      4.101      0.000       0.633       1.791
+morosidad_w                                                     -0.1124      0.056     -2.015      0.044      -0.222      -0.003
+ratio_capital_global_w                                           0.0092      0.022      0.418      0.676      -0.034       0.053
+tasa_referencia_bcrp                                             0.8864      0.071     12.497      0.000       0.747       1.025
+==============================================================================
+Omnibus:                      134.357   Durbin-Watson:                   2.004
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              220.604
+Skew:                          -0.813   Prob(JB):                     1.25e-48
+Kurtosis:                       4.464   Cond. No.                         146.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+===== (2) Sin BCI =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         plazo_181_360d   R-squared:                       0.570
+Model:                            OLS   Adj. R-squared:                  0.568
+Method:                 Least Squares   F-statistic:                     40.52
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           1.84e-12
+Time:                        03:36:34   Log-Likelihood:                -1607.6
+No. Observations:                1082   AIC:                             3227.
+Df Residuals:                    1076   BIC:                             3257.
+Df Model:                           5                                         
+Covariance Type:              cluster                                         
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                        0.2883      0.867      0.332      0.740      -1.412       1.988
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Caja municipal]     0.6809      0.335      2.031      0.042       0.024       1.338
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Financiera]         1.1883      0.299      3.968      0.000       0.601       1.775
+morosidad_w                                                     -0.1101      0.057     -1.924      0.054      -0.222       0.002
+ratio_capital_global_w                                           0.0168      0.035      0.481      0.630      -0.052       0.085
+tasa_referencia_bcrp                                             0.8843      0.072     12.254      0.000       0.743       1.026
+==============================================================================
+Omnibus:                      125.597   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              198.866
+Skew:                          -0.798   Prob(JB):                     6.56e-44
+Kurtosis:                       4.366   Cond. No.                         160.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+===== (3) Y promedio =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         plazo_promedio   R-squared:                       0.713
+Model:                            OLS   Adj. R-squared:                  0.712
+Method:                 Least Squares   F-statistic:                     133.6
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           5.17e-20
+Time:                        03:36:34   Log-Likelihood:                -1378.2
+No. Observations:                1106   AIC:                             2768.
+Df Residuals:                    1100   BIC:                             2798.
+Df Model:                           5                                         
+Covariance Type:              cluster                                         
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                       -0.7547      0.579     -1.303      0.193      -1.890       0.381
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Caja municipal]     0.4915      0.300      1.636      0.102      -0.097       1.080
+C(tipo_entidad_nombre, Treatment('Banco'))[T.Financiera]         0.9619      0.250      3.843      0.000       0.471       1.452
+morosidad_w                                                      0.0026      0.041      0.064      0.949      -0.078       0.084
+ratio_capital_global_w                                           0.0269      0.023      1.180      0.238      -0.018       0.072
+tasa_referencia_bcrp                                             0.9747      0.049     19.821      0.000       0.878       1.071
+==============================================================================
+Omnibus:                      276.783   Durbin-Watson:                   1.816
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              819.979
+Skew:                          -1.247   Prob(JB):                    8.79e-179
+Kurtosis:                       6.402   Cond. No.                         146.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+

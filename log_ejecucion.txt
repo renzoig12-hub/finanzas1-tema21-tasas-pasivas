@@ -458,3 +458,11 @@
 [2026-09-25 19:41:54]    ratio_capital_global: 1350 de 1355
 [2026-09-25 19:41:54]    tasa_referencia_bcrp: 1355 de 1355
 [2026-09-25 19:41:54] === Fin 03_limpieza_datos.py ===
+[2026-09-25 22:36:34] === Inicio 04_analisis.py ===
+[2026-09-25 22:36:34] Excluidas 9 entidades (< 24 meses con tasa). Muestra: 32 entidades, 1106 observaciones
+[2026-09-25 22:36:34] Winsorización ratio_capital_global: máximo 117.19 -> 36.95
+[2026-09-25 22:36:34] Winsorización morosidad: máximo 12.90 -> 11.87
+[2026-09-25 22:36:34] Tablas 1, 2 y 3 guardadas en salidas/
+[2026-09-25 22:36:34] Tabla 4 (regresión y robustez) guardada en salidas/
+[2026-09-25 22:36:34] Figuras 1, 2 y 3 guardadas en salidas/
+[2026-09-25 22:36:34] === Fin 04_analisis.py ===

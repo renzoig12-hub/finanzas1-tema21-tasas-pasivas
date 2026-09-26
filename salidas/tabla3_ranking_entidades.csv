@@ -1,0 +1,33 @@
+Puesto,tipo_entidad_nombre,entidad,TEA_media,VF_medio,Morosidad_media,Capital_medio,Meses
+1,Financiera,Compartamos,6.95,10695.21,7.07,20.3,24
+2,Caja municipal,CMAC Maynas,6.88,10687.94,8.01,14.93,36
+3,Financiera,Efectiva,6.88,10687.83,4.02,23.4,36
+4,Financiera,Confianza,6.72,10672.39,6.78,17.71,36
+5,Caja municipal,CMCP Lima,6.7,10670.14,5.49,12.45,36
+6,Financiera,Oh!,6.57,10657.06,7.03,15.32,36
+7,Caja municipal,CMAC Arequipa,6.34,10634.19,5.04,14.52,36
+8,Banco,Ripley,6.28,10628.5,4.25,17.09,36
+9,Caja municipal,CMAC Piura,6.24,10623.75,7.59,13.89,36
+10,Caja municipal,CMAC Ica,6.15,10614.94,5.67,15.13,33
+11,Banco,GNB,6.11,10611.25,3.15,15.43,36
+12,Financiera,Crediscotia,5.94,10593.65,5.56,23.34,26
+13,Banco,Santander,5.88,10587.93,2.86,17.7,30
+14,Banco,Pichincha,5.85,10585.44,6.63,12.73,36
+15,Financiera,Qapaq,5.78,10577.5,8.7,12.24,34
+16,Banco,BIF,5.73,10572.81,3.8,14.65,36
+17,Caja municipal,CMAC Paita,5.7,10570.33,9.09,14.32,36
+18,Banco,Interbank,5.68,10568.28,3.06,15.88,36
+19,Banco,BCI,5.66,10565.96,1.51,35.17,24
+20,Caja municipal,CMAC Trujillo,5.56,10555.72,7.39,17.49,36
+21,Financiera,Proempresa,5.45,10545.17,10.71,11.6,35
+22,Caja municipal,CMAC Huancayo,5.28,10527.64,4.94,13.03,36
+23,Banco,Crédito,5.2,10519.81,3.9,17.64,36
+24,Banco,BBVA,5.16,10516.17,4.16,15.8,36
+25,Banco,Mibanco,5.06,10505.72,5.99,19.42,36
+26,Caja municipal,CMAC Cusco,5.01,10501.39,4.77,13.69,36
+27,Banco,Scotiabank,4.95,10494.94,4.23,16.15,36
+28,Banco,Falabella,4.91,10490.83,4.87,20.3,36
+29,Banco,Alfin,4.55,10455.36,4.04,13.04,36
+30,Caja municipal,CMAC Tacna,4.36,10435.92,9.37,15.88,36
+31,Caja municipal,CMAC del Santa,4.09,10409.11,8.9,12.93,36
+32,Banco,Bancom,3.95,10394.86,4.55,13.48,36
