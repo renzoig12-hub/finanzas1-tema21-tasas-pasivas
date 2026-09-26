@@ -8,3 +8,434 @@
 [2026-09-24 12:50:29] PD04722MM (tasa_referencia_bcrp) | HTTP 200 | 36 meses | https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04722MM/json/2023-1/2025-12
 [2026-09-24 12:50:30] Guardado datos_crudos_bcrp_2024200504J.csv | filas: 216
 [2026-09-24 12:50:30] === Fin 01_extraccion_api.py ===
+[2026-09-24 22:23:43] === Inicio 02_scraping_web.py (SBS) ===
+[2026-09-24 22:23:53] B 2023-01 (fecha 2023-01-31) | HTTP 200 | 17 entidades | sbs_B_2023-01.xlsx
+[2026-09-24 22:24:01] B 2023-02 (fecha 2023-02-28) | HTTP 200 | 17 entidades | sbs_B_2023-02.xlsx
+[2026-09-24 22:24:09] B 2023-03 (fecha 2023-03-31) | HTTP 200 | 17 entidades | sbs_B_2023-03.xlsx
+[2026-09-24 22:24:16] B 2023-04 (fecha 2023-04-30) | HTTP 500 | sin Excel
+[2026-09-24 22:24:23] B 2023-04 (fecha 2023-04-29) | HTTP 500 | sin Excel
+[2026-09-24 22:24:31] B 2023-04 (fecha 2023-04-28) | HTTP 200 | 17 entidades | sbs_B_2023-04.xlsx
+[2026-09-24 22:24:39] B 2023-05 (fecha 2023-05-31) | HTTP 200 | 17 entidades | sbs_B_2023-05.xlsx
+[2026-09-24 22:24:47] B 2023-06 (fecha 2023-06-30) | HTTP 200 | 17 entidades | sbs_B_2023-06.xlsx
+[2026-09-24 22:24:55] B 2023-07 (fecha 2023-07-31) | HTTP 200 | 17 entidades | sbs_B_2023-07.xlsx
+[2026-09-24 22:25:03] B 2023-08 (fecha 2023-08-31) | HTTP 200 | 17 entidades | sbs_B_2023-08.xlsx
+[2026-09-24 22:25:10] B 2023-09 (fecha 2023-09-30) | HTTP 500 | sin Excel
+[2026-09-24 22:25:18] B 2023-09 (fecha 2023-09-29) | HTTP 200 | 17 entidades | sbs_B_2023-09.xlsx
+[2026-09-24 22:25:26] B 2023-10 (fecha 2023-10-31) | HTTP 200 | 17 entidades | sbs_B_2023-10.xlsx
+[2026-09-24 22:25:33] B 2023-11 (fecha 2023-11-30) | HTTP 200 | 17 entidades | sbs_B_2023-11.xlsx
+[2026-09-24 22:25:41] B 2023-12 (fecha 2023-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:25:48] B 2023-12 (fecha 2023-12-30) | HTTP 500 | sin Excel
+[2026-09-24 22:25:56] B 2023-12 (fecha 2023-12-29) | HTTP 200 | 17 entidades | sbs_B_2023-12.xlsx
+[2026-09-24 22:26:04] B 2024-01 (fecha 2024-01-31) | HTTP 200 | 17 entidades | sbs_B_2024-01.xlsx
+[2026-09-24 22:26:12] B 2024-02 (fecha 2024-02-29) | HTTP 200 | 17 entidades | sbs_B_2024-02.xlsx
+[2026-09-24 22:26:19] B 2024-03 (fecha 2024-03-31) | HTTP 500 | sin Excel
+[2026-09-24 22:26:27] B 2024-03 (fecha 2024-03-30) | HTTP 500 | sin Excel
+[2026-09-24 22:26:34] B 2024-03 (fecha 2024-03-29) | HTTP 500 | sin Excel
+[2026-09-24 22:26:41] B 2024-03 (fecha 2024-03-28) | HTTP 500 | sin Excel
+[2026-09-24 22:26:49] B 2024-03 (fecha 2024-03-27) | HTTP 200 | 17 entidades | sbs_B_2024-03.xlsx
+[2026-09-24 22:26:56] B 2024-04 (fecha 2024-04-30) | HTTP 200 | 17 entidades | sbs_B_2024-04.xlsx
+[2026-09-24 22:27:05] B 2024-05 (fecha 2024-05-31) | HTTP 200 | 17 entidades | sbs_B_2024-05.xlsx
+[2026-09-24 22:27:12] B 2024-06 (fecha 2024-06-30) | HTTP 500 | sin Excel
+[2026-09-24 22:27:19] B 2024-06 (fecha 2024-06-29) | HTTP 500 | sin Excel
+[2026-09-24 22:27:27] B 2024-06 (fecha 2024-06-28) | HTTP 200 | 17 entidades | sbs_B_2024-06.xlsx
+[2026-09-24 22:27:35] B 2024-07 (fecha 2024-07-31) | HTTP 200 | 17 entidades | sbs_B_2024-07.xlsx
+[2026-09-24 22:27:44] B 2024-08 (fecha 2024-08-31) | HTTP 200 | 17 entidades | sbs_B_2024-08.xlsx
+[2026-09-24 22:27:52] B 2024-09 (fecha 2024-09-30) | HTTP 200 | 17 entidades | sbs_B_2024-09.xlsx
+[2026-09-24 22:27:59] B 2024-10 (fecha 2024-10-31) | HTTP 200 | 17 entidades | sbs_B_2024-10.xlsx
+[2026-09-24 22:28:07] B 2024-11 (fecha 2024-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:28:14] B 2024-11 (fecha 2024-11-29) | HTTP 200 | 17 entidades | sbs_B_2024-11.xlsx
+[2026-09-24 22:28:21] B 2024-12 (fecha 2024-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:28:29] B 2024-12 (fecha 2024-12-30) | HTTP 200 | 17 entidades | sbs_B_2024-12.xlsx
+[2026-09-24 22:28:37] B 2025-01 (fecha 2025-01-31) | HTTP 200 | 18 entidades | sbs_B_2025-01.xlsx
+[2026-09-24 22:28:45] B 2025-02 (fecha 2025-02-28) | HTTP 200 | 18 entidades | sbs_B_2025-02.xlsx
+[2026-09-24 22:28:53] B 2025-03 (fecha 2025-03-31) | HTTP 200 | 18 entidades | sbs_B_2025-03.xlsx
+[2026-09-24 22:29:02] B 2025-04 (fecha 2025-04-30) | HTTP 200 | 18 entidades | sbs_B_2025-04.xlsx
+[2026-09-24 22:29:09] B 2025-05 (fecha 2025-05-31) | HTTP 500 | sin Excel
+[2026-09-24 22:29:17] B 2025-05 (fecha 2025-05-30) | HTTP 200 | 18 entidades | sbs_B_2025-05.xlsx
+[2026-09-24 22:29:25] B 2025-06 (fecha 2025-06-30) | HTTP 200 | 19 entidades | sbs_B_2025-06.xlsx
+[2026-09-24 22:29:32] B 2025-07 (fecha 2025-07-31) | HTTP 200 | 19 entidades | sbs_B_2025-07.xlsx
+[2026-09-24 22:29:39] B 2025-08 (fecha 2025-08-31) | HTTP 500 | sin Excel
+[2026-09-24 22:29:47] B 2025-08 (fecha 2025-08-30) | HTTP 500 | sin Excel
+[2026-09-24 22:29:55] B 2025-08 (fecha 2025-08-29) | HTTP 200 | 19 entidades | sbs_B_2025-08.xlsx
+[2026-09-24 22:30:03] B 2025-09 (fecha 2025-09-30) | HTTP 200 | 19 entidades | sbs_B_2025-09.xlsx
+[2026-09-24 22:30:11] B 2025-10 (fecha 2025-10-31) | HTTP 200 | 19 entidades | sbs_B_2025-10.xlsx
+[2026-09-24 22:30:23] B 2025-11 (fecha 2025-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:30:31] B 2025-11 (fecha 2025-11-29) | HTTP 500 | sin Excel
+[2026-09-24 22:30:40] B 2025-11 (fecha 2025-11-28) | HTTP 200 | 19 entidades | sbs_B_2025-11.xlsx
+[2026-09-24 22:30:48] B 2025-12 (fecha 2025-12-31) | HTTP 200 | 19 entidades | sbs_B_2025-12.xlsx
+[2026-09-24 22:30:56] F 2023-01 (fecha 2023-01-31) | HTTP 200 | 9 entidades | sbs_F_2023-01.xlsx
+[2026-09-24 22:31:03] F 2023-02 (fecha 2023-02-28) | HTTP 200 | 9 entidades | sbs_F_2023-02.xlsx
+[2026-09-24 22:31:11] F 2023-03 (fecha 2023-03-31) | HTTP 200 | 9 entidades | sbs_F_2023-03.xlsx
+[2026-09-24 22:31:17] F 2023-04 (fecha 2023-04-30) | HTTP 500 | sin Excel
+[2026-09-24 22:31:23] F 2023-04 (fecha 2023-04-29) | HTTP 500 | sin Excel
+[2026-09-24 22:31:31] F 2023-04 (fecha 2023-04-28) | HTTP 200 | 9 entidades | sbs_F_2023-04.xlsx
+[2026-09-24 22:31:38] F 2023-05 (fecha 2023-05-31) | HTTP 200 | 9 entidades | sbs_F_2023-05.xlsx
+[2026-09-24 22:31:46] F 2023-06 (fecha 2023-06-30) | HTTP 200 | 9 entidades | sbs_F_2023-06.xlsx
+[2026-09-24 22:31:53] F 2023-07 (fecha 2023-07-31) | HTTP 200 | 9 entidades | sbs_F_2023-07.xlsx
+[2026-09-24 22:32:01] F 2023-08 (fecha 2023-08-31) | HTTP 200 | 9 entidades | sbs_F_2023-08.xlsx
+[2026-09-24 22:32:07] F 2023-09 (fecha 2023-09-30) | HTTP 500 | sin Excel
+[2026-09-24 22:32:15] F 2023-09 (fecha 2023-09-29) | HTTP 200 | 9 entidades | sbs_F_2023-09.xlsx
+[2026-09-24 22:32:22] F 2023-10 (fecha 2023-10-31) | HTTP 200 | 9 entidades | sbs_F_2023-10.xlsx
+[2026-09-24 22:32:29] F 2023-11 (fecha 2023-11-30) | HTTP 200 | 9 entidades | sbs_F_2023-11.xlsx
+[2026-09-24 22:32:36] F 2023-12 (fecha 2023-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:32:42] F 2023-12 (fecha 2023-12-30) | HTTP 500 | sin Excel
+[2026-09-24 22:32:50] F 2023-12 (fecha 2023-12-29) | HTTP 200 | 9 entidades | sbs_F_2023-12.xlsx
+[2026-09-24 22:32:57] F 2024-01 (fecha 2024-01-31) | HTTP 200 | 9 entidades | sbs_F_2024-01.xlsx
+[2026-09-24 22:33:04] F 2024-02 (fecha 2024-02-29) | HTTP 200 | 9 entidades | sbs_F_2024-02.xlsx
+[2026-09-24 22:33:11] F 2024-03 (fecha 2024-03-31) | HTTP 500 | sin Excel
+[2026-09-24 22:33:17] F 2024-03 (fecha 2024-03-30) | HTTP 500 | sin Excel
+[2026-09-24 22:33:24] F 2024-03 (fecha 2024-03-29) | HTTP 500 | sin Excel
+[2026-09-24 22:33:31] F 2024-03 (fecha 2024-03-28) | HTTP 500 | sin Excel
+[2026-09-24 22:33:38] F 2024-03 (fecha 2024-03-27) | HTTP 200 | 9 entidades | sbs_F_2024-03.xlsx
+[2026-09-24 22:33:46] F 2024-04 (fecha 2024-04-30) | HTTP 200 | 10 entidades | sbs_F_2024-04.xlsx
+[2026-09-24 22:33:53] F 2024-05 (fecha 2024-05-31) | HTTP 200 | 10 entidades | sbs_F_2024-05.xlsx
+[2026-09-24 22:34:00] F 2024-06 (fecha 2024-06-30) | HTTP 500 | sin Excel
+[2026-09-24 22:34:06] F 2024-06 (fecha 2024-06-29) | HTTP 500 | sin Excel
+[2026-09-24 22:34:14] F 2024-06 (fecha 2024-06-28) | HTTP 200 | 10 entidades | sbs_F_2024-06.xlsx
+[2026-09-24 22:34:21] F 2024-07 (fecha 2024-07-31) | HTTP 200 | 10 entidades | sbs_F_2024-07.xlsx
+[2026-09-24 22:34:28] F 2024-08 (fecha 2024-08-31) | HTTP 200 | 10 entidades | sbs_F_2024-08.xlsx
+[2026-09-24 22:34:36] F 2024-09 (fecha 2024-09-30) | HTTP 200 | 9 entidades | sbs_F_2024-09.xlsx
+[2026-09-24 22:34:43] F 2024-10 (fecha 2024-10-31) | HTTP 200 | 9 entidades | sbs_F_2024-10.xlsx
+[2026-09-24 22:34:50] F 2024-11 (fecha 2024-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:34:58] F 2024-11 (fecha 2024-11-29) | HTTP 200 | 9 entidades | sbs_F_2024-11.xlsx
+[2026-09-24 22:35:04] F 2024-12 (fecha 2024-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:35:12] F 2024-12 (fecha 2024-12-30) | HTTP 200 | 9 entidades | sbs_F_2024-12.xlsx
+[2026-09-24 22:35:19] F 2025-01 (fecha 2025-01-31) | HTTP 200 | 8 entidades | sbs_F_2025-01.xlsx
+[2026-09-24 22:35:27] F 2025-02 (fecha 2025-02-28) | HTTP 200 | 8 entidades | sbs_F_2025-02.xlsx
+[2026-09-24 22:35:34] F 2025-03 (fecha 2025-03-31) | HTTP 200 | 8 entidades | sbs_F_2025-03.xlsx
+[2026-09-24 22:35:41] F 2025-04 (fecha 2025-04-30) | HTTP 200 | 8 entidades | sbs_F_2025-04.xlsx
+[2026-09-24 22:35:49] F 2025-05 (fecha 2025-05-31) | HTTP 500 | sin Excel
+[2026-09-24 22:35:56] F 2025-05 (fecha 2025-05-30) | HTTP 200 | 8 entidades | sbs_F_2025-05.xlsx
+[2026-09-24 22:36:04] F 2025-06 (fecha 2025-06-30) | HTTP 200 | 7 entidades | sbs_F_2025-06.xlsx
+[2026-09-24 22:36:11] F 2025-07 (fecha 2025-07-31) | HTTP 200 | 7 entidades | sbs_F_2025-07.xlsx
+[2026-09-24 22:36:18] F 2025-08 (fecha 2025-08-31) | HTTP 500 | sin Excel
+[2026-09-24 22:36:24] F 2025-08 (fecha 2025-08-30) | HTTP 500 | sin Excel
+[2026-09-24 22:36:32] F 2025-08 (fecha 2025-08-29) | HTTP 200 | 7 entidades | sbs_F_2025-08.xlsx
+[2026-09-24 22:36:39] F 2025-09 (fecha 2025-09-30) | HTTP 200 | 7 entidades | sbs_F_2025-09.xlsx
+[2026-09-24 22:36:46] F 2025-10 (fecha 2025-10-31) | HTTP 200 | 7 entidades | sbs_F_2025-10.xlsx
+[2026-09-24 22:36:52] F 2025-11 (fecha 2025-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:36:59] F 2025-11 (fecha 2025-11-29) | HTTP 500 | sin Excel
+[2026-09-24 22:37:06] F 2025-11 (fecha 2025-11-28) | HTTP 200 | 7 entidades | sbs_F_2025-11.xlsx
+[2026-09-24 22:37:13] F 2025-12 (fecha 2025-12-31) | HTTP 200 | 7 entidades | sbs_F_2025-12.xlsx
+[2026-09-24 22:37:21] C 2023-01 | HTTP 200 | 12 entidades | sbs_C_2023-01.xlsx
+[2026-09-24 22:37:30] C 2023-02 | HTTP 200 | 12 entidades | sbs_C_2023-02.xlsx
+[2026-09-24 22:37:39] C 2023-03 | HTTP 200 | 12 entidades | sbs_C_2023-03.xlsx
+[2026-09-24 22:37:47] C 2023-04 | HTTP 200 | 12 entidades | sbs_C_2023-04.xlsx
+[2026-09-24 22:37:56] C 2023-05 | HTTP 200 | 12 entidades | sbs_C_2023-05.xlsx
+[2026-09-24 22:38:04] C 2023-06 | HTTP 200 | 12 entidades | sbs_C_2023-06.xlsx
+[2026-09-24 22:38:12] C 2023-07 | HTTP 200 | 12 entidades | sbs_C_2023-07.xlsx
+[2026-09-24 22:38:20] C 2023-08 | HTTP 200 | 12 entidades | sbs_C_2023-08.xlsx
+[2026-09-24 22:38:28] C 2023-09 | HTTP 200 | 12 entidades | sbs_C_2023-09.xlsx
+[2026-09-24 22:38:37] C 2023-10 | HTTP 200 | 12 entidades | sbs_C_2023-10.xlsx
+[2026-09-24 22:38:46] C 2023-11 | HTTP 200 | 12 entidades | sbs_C_2023-11.xlsx
+[2026-09-24 22:38:54] C 2023-12 | HTTP 200 | 12 entidades | sbs_C_2023-12.xlsx
+[2026-09-24 22:39:02] C 2024-01 | HTTP 200 | 12 entidades | sbs_C_2024-01.xlsx
+[2026-09-24 22:39:11] C 2024-02 | HTTP 200 | 12 entidades | sbs_C_2024-02.xlsx
+[2026-09-24 22:39:18] C 2024-03 | HTTP 200 | 12 entidades | sbs_C_2024-03.xlsx
+[2026-09-24 22:39:27] C 2024-04 | HTTP 200 | 12 entidades | sbs_C_2024-04.xlsx
+[2026-09-24 22:39:36] C 2024-05 | HTTP 200 | 12 entidades | sbs_C_2024-05.xlsx
+[2026-09-24 22:39:44] C 2024-06 | HTTP 200 | 12 entidades | sbs_C_2024-06.xlsx
+[2026-09-24 22:39:52] C 2024-07 | HTTP 200 | 11 entidades | sbs_C_2024-07.xlsx
+[2026-09-24 22:40:00] C 2024-08 | HTTP 200 | 11 entidades | sbs_C_2024-08.xlsx
+[2026-09-24 22:40:08] C 2024-09 | HTTP 200 | 11 entidades | sbs_C_2024-09.xlsx
+[2026-09-24 22:40:16] C 2024-10 | HTTP 200 | 11 entidades | sbs_C_2024-10.xlsx
+[2026-09-24 22:40:24] C 2024-11 | HTTP 200 | 11 entidades | sbs_C_2024-11.xlsx
+[2026-09-24 22:40:33] C 2024-12 | HTTP 200 | 11 entidades | sbs_C_2024-12.xlsx
+[2026-09-24 22:40:43] C 2025-01 | HTTP 200 | 11 entidades | sbs_C_2025-01.xlsx
+[2026-09-24 22:40:52] C 2025-02 | HTTP 200 | 11 entidades | sbs_C_2025-02.xlsx
+[2026-09-24 22:41:00] C 2025-03 | HTTP 200 | 11 entidades | sbs_C_2025-03.xlsx
+[2026-09-24 22:41:08] C 2025-04 | HTTP 200 | 11 entidades | sbs_C_2025-04.xlsx
+[2026-09-24 22:41:17] C 2025-05 | HTTP 200 | 11 entidades | sbs_C_2025-05.xlsx
+[2026-09-24 22:41:25] C 2025-06 | HTTP 200 | 11 entidades | sbs_C_2025-06.xlsx
+[2026-09-24 22:41:34] C 2025-07 | HTTP 200 | 11 entidades | sbs_C_2025-07.xlsx
+[2026-09-24 22:41:43] C 2025-08 | HTTP 200 | 11 entidades | sbs_C_2025-08.xlsx
+[2026-09-24 22:41:51] C 2025-09 | HTTP 200 | 11 entidades | sbs_C_2025-09.xlsx
+[2026-09-24 22:42:00] C 2025-10 | HTTP 200 | 11 entidades | sbs_C_2025-10.xlsx
+[2026-09-24 22:42:08] C 2025-11 | HTTP 200 | 11 entidades | sbs_C_2025-11.xlsx
+[2026-09-24 22:42:17] C 2025-12 | HTTP 200 | 11 entidades | sbs_C_2025-12.xlsx
+[2026-09-24 22:42:17] Guardado datos_crudos_sbs_2024200504J.csv | filas: 1355
+[2026-09-24 22:42:17]    Banco: 36 meses, 631 filas
+[2026-09-24 22:42:17]    Financiera: 36 meses, 310 filas
+[2026-09-24 22:42:17]    Caja municipal: 36 meses, 414 filas
+[2026-09-24 22:42:17] Periodos que fallaron: ninguno
+[2026-09-24 22:42:17] === Fin 02_scraping_web.py ===
+[2026-09-24 22:43:44] === Inicio 02_scraping_web.py (SBS) ===
+[2026-09-24 22:43:53] B 2023-01 (fecha 2023-01-31) | HTTP 200 | 17 entidades | sbs_B_2023-01.xlsx
+[2026-09-24 22:44:02] B 2023-02 (fecha 2023-02-28) | HTTP 200 | 17 entidades | sbs_B_2023-02.xlsx
+[2026-09-24 22:44:10] B 2023-03 (fecha 2023-03-31) | HTTP 200 | 17 entidades | sbs_B_2023-03.xlsx
+[2026-09-24 22:44:17] B 2023-04 (fecha 2023-04-30) | HTTP 500 | sin Excel
+[2026-09-24 22:44:25] B 2023-04 (fecha 2023-04-29) | HTTP 500 | sin Excel
+[2026-09-24 22:44:33] B 2023-04 (fecha 2023-04-28) | HTTP 200 | 17 entidades | sbs_B_2023-04.xlsx
+[2026-09-24 22:44:41] B 2023-05 (fecha 2023-05-31) | HTTP 200 | 17 entidades | sbs_B_2023-05.xlsx
+[2026-09-24 22:44:50] B 2023-06 (fecha 2023-06-30) | HTTP 200 | 17 entidades | sbs_B_2023-06.xlsx
+[2026-09-24 22:44:58] B 2023-07 (fecha 2023-07-31) | HTTP 200 | 17 entidades | sbs_B_2023-07.xlsx
+[2026-09-24 22:45:07] B 2023-08 (fecha 2023-08-31) | HTTP 200 | 17 entidades | sbs_B_2023-08.xlsx
+[2026-09-24 22:45:28] === Inicio 02_scraping_web.py (SBS) ===
+[2026-09-24 22:45:37] B 2023-01 (fecha 2023-01-31) | HTTP 200 | 17 entidades | sbs_B_2023-01.xlsx
+[2026-09-24 22:45:45] B 2023-02 (fecha 2023-02-28) | HTTP 200 | 17 entidades | sbs_B_2023-02.xlsx
+[2026-09-24 22:45:54] B 2023-03 (fecha 2023-03-31) | HTTP 200 | 17 entidades | sbs_B_2023-03.xlsx
+[2026-09-24 22:46:02] B 2023-04 (fecha 2023-04-30) | HTTP 500 | sin Excel
+[2026-09-24 22:46:09] B 2023-04 (fecha 2023-04-29) | HTTP 500 | sin Excel
+[2026-09-24 22:46:18] B 2023-04 (fecha 2023-04-28) | HTTP 200 | 17 entidades | sbs_B_2023-04.xlsx
+[2026-09-24 22:46:26] B 2023-05 (fecha 2023-05-31) | HTTP 200 | 17 entidades | sbs_B_2023-05.xlsx
+[2026-09-24 22:46:35] B 2023-06 (fecha 2023-06-30) | HTTP 200 | 17 entidades | sbs_B_2023-06.xlsx
+[2026-09-24 22:46:43] B 2023-07 (fecha 2023-07-31) | HTTP 200 | 17 entidades | sbs_B_2023-07.xlsx
+[2026-09-24 22:46:51] B 2023-08 (fecha 2023-08-31) | HTTP 200 | 17 entidades | sbs_B_2023-08.xlsx
+[2026-09-24 22:46:59] B 2023-09 (fecha 2023-09-30) | HTTP 500 | sin Excel
+[2026-09-24 22:47:08] B 2023-09 (fecha 2023-09-29) | HTTP 200 | 17 entidades | sbs_B_2023-09.xlsx
+[2026-09-24 22:47:16] B 2023-10 (fecha 2023-10-31) | HTTP 200 | 17 entidades | sbs_B_2023-10.xlsx
+[2026-09-24 22:47:24] B 2023-11 (fecha 2023-11-30) | HTTP 200 | 17 entidades | sbs_B_2023-11.xlsx
+[2026-09-24 22:47:31] B 2023-12 (fecha 2023-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:47:39] B 2023-12 (fecha 2023-12-30) | HTTP 500 | sin Excel
+[2026-09-24 22:47:47] B 2023-12 (fecha 2023-12-29) | HTTP 200 | 17 entidades | sbs_B_2023-12.xlsx
+[2026-09-24 22:47:55] B 2024-01 (fecha 2024-01-31) | HTTP 200 | 17 entidades | sbs_B_2024-01.xlsx
+[2026-09-24 22:48:04] B 2024-02 (fecha 2024-02-29) | HTTP 200 | 17 entidades | sbs_B_2024-02.xlsx
+[2026-09-24 22:48:11] B 2024-03 (fecha 2024-03-31) | HTTP 500 | sin Excel
+[2026-09-24 22:48:19] B 2024-03 (fecha 2024-03-30) | HTTP 500 | sin Excel
+[2026-09-24 22:48:26] B 2024-03 (fecha 2024-03-29) | HTTP 500 | sin Excel
+[2026-09-24 22:48:34] B 2024-03 (fecha 2024-03-28) | HTTP 500 | sin Excel
+[2026-09-24 22:48:43] B 2024-03 (fecha 2024-03-27) | HTTP 200 | 17 entidades | sbs_B_2024-03.xlsx
+[2026-09-24 22:48:52] B 2024-04 (fecha 2024-04-30) | HTTP 200 | 17 entidades | sbs_B_2024-04.xlsx
+[2026-09-24 22:49:01] B 2024-05 (fecha 2024-05-31) | HTTP 200 | 17 entidades | sbs_B_2024-05.xlsx
+[2026-09-24 22:49:08] B 2024-06 (fecha 2024-06-30) | HTTP 500 | sin Excel
+[2026-09-24 22:49:16] B 2024-06 (fecha 2024-06-29) | HTTP 500 | sin Excel
+[2026-09-24 22:49:25] B 2024-06 (fecha 2024-06-28) | HTTP 200 | 17 entidades | sbs_B_2024-06.xlsx
+[2026-09-24 22:49:33] B 2024-07 (fecha 2024-07-31) | HTTP 200 | 17 entidades | sbs_B_2024-07.xlsx
+[2026-09-24 22:49:42] B 2024-08 (fecha 2024-08-31) | HTTP 200 | 17 entidades | sbs_B_2024-08.xlsx
+[2026-09-24 22:49:50] B 2024-09 (fecha 2024-09-30) | HTTP 200 | 17 entidades | sbs_B_2024-09.xlsx
+[2026-09-24 22:49:58] B 2024-10 (fecha 2024-10-31) | HTTP 200 | 17 entidades | sbs_B_2024-10.xlsx
+[2026-09-24 22:50:06] B 2024-11 (fecha 2024-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:50:14] B 2024-11 (fecha 2024-11-29) | HTTP 200 | 17 entidades | sbs_B_2024-11.xlsx
+[2026-09-24 22:50:22] B 2024-12 (fecha 2024-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:50:30] B 2024-12 (fecha 2024-12-30) | HTTP 200 | 17 entidades | sbs_B_2024-12.xlsx
+[2026-09-24 22:50:38] B 2025-01 (fecha 2025-01-31) | HTTP 200 | 18 entidades | sbs_B_2025-01.xlsx
+[2026-09-24 22:50:46] B 2025-02 (fecha 2025-02-28) | HTTP 200 | 18 entidades | sbs_B_2025-02.xlsx
+[2026-09-24 22:50:55] B 2025-03 (fecha 2025-03-31) | HTTP 200 | 18 entidades | sbs_B_2025-03.xlsx
+[2026-09-24 22:51:03] B 2025-04 (fecha 2025-04-30) | HTTP 200 | 18 entidades | sbs_B_2025-04.xlsx
+[2026-09-24 22:51:10] B 2025-05 (fecha 2025-05-31) | HTTP 500 | sin Excel
+[2026-09-24 22:51:18] B 2025-05 (fecha 2025-05-30) | HTTP 200 | 18 entidades | sbs_B_2025-05.xlsx
+[2026-09-24 22:51:26] B 2025-06 (fecha 2025-06-30) | HTTP 200 | 19 entidades | sbs_B_2025-06.xlsx
+[2026-09-24 22:51:35] B 2025-07 (fecha 2025-07-31) | HTTP 200 | 19 entidades | sbs_B_2025-07.xlsx
+[2026-09-24 22:51:42] B 2025-08 (fecha 2025-08-31) | HTTP 500 | sin Excel
+[2026-09-24 22:51:49] B 2025-08 (fecha 2025-08-30) | HTTP 500 | sin Excel
+[2026-09-24 22:51:59] B 2025-08 (fecha 2025-08-29) | HTTP 200 | 19 entidades | sbs_B_2025-08.xlsx
+[2026-09-24 22:52:07] B 2025-09 (fecha 2025-09-30) | HTTP 200 | 19 entidades | sbs_B_2025-09.xlsx
+[2026-09-24 22:52:16] B 2025-10 (fecha 2025-10-31) | HTTP 200 | 19 entidades | sbs_B_2025-10.xlsx
+[2026-09-24 22:52:23] B 2025-11 (fecha 2025-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:52:30] B 2025-11 (fecha 2025-11-29) | HTTP 500 | sin Excel
+[2026-09-24 22:52:38] B 2025-11 (fecha 2025-11-28) | HTTP 200 | 19 entidades | sbs_B_2025-11.xlsx
+[2026-09-24 22:52:46] B 2025-12 (fecha 2025-12-31) | HTTP 200 | 19 entidades | sbs_B_2025-12.xlsx
+[2026-09-24 22:52:53] F 2023-01 (fecha 2023-01-31) | HTTP 200 | 9 entidades | sbs_F_2023-01.xlsx
+[2026-09-24 22:53:01] F 2023-02 (fecha 2023-02-28) | HTTP 200 | 9 entidades | sbs_F_2023-02.xlsx
+[2026-09-24 22:53:08] F 2023-03 (fecha 2023-03-31) | HTTP 200 | 9 entidades | sbs_F_2023-03.xlsx
+[2026-09-24 22:53:15] F 2023-04 (fecha 2023-04-30) | HTTP 500 | sin Excel
+[2026-09-24 22:53:21] F 2023-04 (fecha 2023-04-29) | HTTP 500 | sin Excel
+[2026-09-24 22:53:29] F 2023-04 (fecha 2023-04-28) | HTTP 200 | 9 entidades | sbs_F_2023-04.xlsx
+[2026-09-24 22:53:36] F 2023-05 (fecha 2023-05-31) | HTTP 200 | 9 entidades | sbs_F_2023-05.xlsx
+[2026-09-24 22:53:43] F 2023-06 (fecha 2023-06-30) | HTTP 200 | 9 entidades | sbs_F_2023-06.xlsx
+[2026-09-24 22:53:50] F 2023-07 (fecha 2023-07-31) | HTTP 200 | 9 entidades | sbs_F_2023-07.xlsx
+[2026-09-24 22:53:57] F 2023-08 (fecha 2023-08-31) | HTTP 200 | 9 entidades | sbs_F_2023-08.xlsx
+[2026-09-24 22:54:04] F 2023-09 (fecha 2023-09-30) | HTTP 500 | sin Excel
+[2026-09-24 22:54:11] F 2023-09 (fecha 2023-09-29) | HTTP 200 | 9 entidades | sbs_F_2023-09.xlsx
+[2026-09-24 22:54:18] F 2023-10 (fecha 2023-10-31) | HTTP 200 | 9 entidades | sbs_F_2023-10.xlsx
+[2026-09-24 22:54:26] F 2023-11 (fecha 2023-11-30) | HTTP 200 | 9 entidades | sbs_F_2023-11.xlsx
+[2026-09-24 22:54:32] F 2023-12 (fecha 2023-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:54:39] F 2023-12 (fecha 2023-12-30) | HTTP 500 | sin Excel
+[2026-09-24 22:54:46] F 2023-12 (fecha 2023-12-29) | HTTP 200 | 9 entidades | sbs_F_2023-12.xlsx
+[2026-09-24 22:54:53] F 2024-01 (fecha 2024-01-31) | HTTP 200 | 9 entidades | sbs_F_2024-01.xlsx
+[2026-09-24 22:55:01] F 2024-02 (fecha 2024-02-29) | HTTP 200 | 9 entidades | sbs_F_2024-02.xlsx
+[2026-09-24 22:55:07] F 2024-03 (fecha 2024-03-31) | HTTP 500 | sin Excel
+[2026-09-24 22:55:13] F 2024-03 (fecha 2024-03-30) | HTTP 500 | sin Excel
+[2026-09-24 22:55:20] F 2024-03 (fecha 2024-03-29) | HTTP 500 | sin Excel
+[2026-09-24 22:55:26] F 2024-03 (fecha 2024-03-28) | HTTP 500 | sin Excel
+[2026-09-24 22:55:33] F 2024-03 (fecha 2024-03-27) | HTTP 200 | 9 entidades | sbs_F_2024-03.xlsx
+[2026-09-24 22:55:40] F 2024-04 (fecha 2024-04-30) | HTTP 200 | 10 entidades | sbs_F_2024-04.xlsx
+[2026-09-24 22:55:47] F 2024-05 (fecha 2024-05-31) | HTTP 200 | 10 entidades | sbs_F_2024-05.xlsx
+[2026-09-24 22:55:54] F 2024-06 (fecha 2024-06-30) | HTTP 500 | sin Excel
+[2026-09-24 22:56:00] F 2024-06 (fecha 2024-06-29) | HTTP 500 | sin Excel
+[2026-09-24 22:56:07] F 2024-06 (fecha 2024-06-28) | HTTP 200 | 10 entidades | sbs_F_2024-06.xlsx
+[2026-09-24 22:56:15] F 2024-07 (fecha 2024-07-31) | HTTP 200 | 10 entidades | sbs_F_2024-07.xlsx
+[2026-09-24 22:56:22] F 2024-08 (fecha 2024-08-31) | HTTP 200 | 10 entidades | sbs_F_2024-08.xlsx
+[2026-09-24 22:56:29] F 2024-09 (fecha 2024-09-30) | HTTP 200 | 9 entidades | sbs_F_2024-09.xlsx
+[2026-09-24 22:56:37] F 2024-10 (fecha 2024-10-31) | HTTP 200 | 9 entidades | sbs_F_2024-10.xlsx
+[2026-09-24 22:56:43] F 2024-11 (fecha 2024-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:56:50] F 2024-11 (fecha 2024-11-29) | HTTP 200 | 9 entidades | sbs_F_2024-11.xlsx
+[2026-09-24 22:56:58] F 2024-12 (fecha 2024-12-31) | HTTP 500 | sin Excel
+[2026-09-24 22:57:08] F 2024-12 (fecha 2024-12-30) | HTTP 200 | 9 entidades | sbs_F_2024-12.xlsx
+[2026-09-24 22:57:18] F 2025-01 (fecha 2025-01-31) | HTTP 200 | 8 entidades | sbs_F_2025-01.xlsx
+[2026-09-24 22:57:28] F 2025-02 (fecha 2025-02-28) | HTTP 200 | 8 entidades | sbs_F_2025-02.xlsx
+[2026-09-24 22:57:37] F 2025-03 (fecha 2025-03-31) | HTTP 200 | 8 entidades | sbs_F_2025-03.xlsx
+[2026-09-24 22:57:46] F 2025-04 (fecha 2025-04-30) | HTTP 200 | 8 entidades | sbs_F_2025-04.xlsx
+[2026-09-24 22:57:53] F 2025-05 (fecha 2025-05-31) | HTTP 500 | sin Excel
+[2026-09-24 22:58:02] F 2025-05 (fecha 2025-05-30) | HTTP 200 | 8 entidades | sbs_F_2025-05.xlsx
+[2026-09-24 22:58:11] F 2025-06 (fecha 2025-06-30) | HTTP 200 | 7 entidades | sbs_F_2025-06.xlsx
+[2026-09-24 22:58:21] F 2025-07 (fecha 2025-07-31) | HTTP 200 | 7 entidades | sbs_F_2025-07.xlsx
+[2026-09-24 22:58:29] F 2025-08 (fecha 2025-08-31) | HTTP 500 | sin Excel
+[2026-09-24 22:58:37] F 2025-08 (fecha 2025-08-30) | HTTP 500 | sin Excel
+[2026-09-24 22:58:46] F 2025-08 (fecha 2025-08-29) | HTTP 200 | 7 entidades | sbs_F_2025-08.xlsx
+[2026-09-24 22:58:56] F 2025-09 (fecha 2025-09-30) | HTTP 200 | 7 entidades | sbs_F_2025-09.xlsx
+[2026-09-24 22:59:04] F 2025-10 (fecha 2025-10-31) | HTTP 200 | 7 entidades | sbs_F_2025-10.xlsx
+[2026-09-24 22:59:12] F 2025-11 (fecha 2025-11-30) | HTTP 500 | sin Excel
+[2026-09-24 22:59:21] F 2025-11 (fecha 2025-11-29) | HTTP 500 | sin Excel
+[2026-09-24 22:59:30] F 2025-11 (fecha 2025-11-28) | HTTP 200 | 7 entidades | sbs_F_2025-11.xlsx
+[2026-09-24 22:59:39] F 2025-12 (fecha 2025-12-31) | HTTP 200 | 7 entidades | sbs_F_2025-12.xlsx
+[2026-09-24 22:59:49] C 2023-01 | HTTP 200 | 12 entidades | sbs_C_2023-01.xlsx
+[2026-09-24 22:59:59] C 2023-02 | HTTP 200 | 12 entidades | sbs_C_2023-02.xlsx
+[2026-09-24 23:00:09] C 2023-03 | HTTP 200 | 12 entidades | sbs_C_2023-03.xlsx
+[2026-09-24 23:00:19] C 2023-04 | HTTP 200 | 12 entidades | sbs_C_2023-04.xlsx
+[2026-09-24 23:00:29] C 2023-05 | HTTP 200 | 12 entidades | sbs_C_2023-05.xlsx
+[2026-09-24 23:00:38] C 2023-06 | HTTP 200 | 12 entidades | sbs_C_2023-06.xlsx
+[2026-09-24 23:00:48] C 2023-07 | HTTP 200 | 12 entidades | sbs_C_2023-07.xlsx
+[2026-09-24 23:00:59] C 2023-08 | HTTP 200 | 12 entidades | sbs_C_2023-08.xlsx
+[2026-09-24 23:01:07] C 2023-09 | HTTP 200 | 12 entidades | sbs_C_2023-09.xlsx
+[2026-09-24 23:01:14] C 2023-10 | HTTP 200 | 12 entidades | sbs_C_2023-10.xlsx
+[2026-09-24 23:01:22] C 2023-11 | HTTP 200 | 12 entidades | sbs_C_2023-11.xlsx
+[2026-09-24 23:01:30] C 2023-12 | HTTP 200 | 12 entidades | sbs_C_2023-12.xlsx
+[2026-09-24 23:01:39] C 2024-01 | HTTP 200 | 12 entidades | sbs_C_2024-01.xlsx
+[2026-09-24 23:01:48] C 2024-02 | HTTP 200 | 12 entidades | sbs_C_2024-02.xlsx
+[2026-09-24 23:01:59] C 2024-03 | HTTP 200 | 12 entidades | sbs_C_2024-03.xlsx
+[2026-09-24 23:02:08] C 2024-04 | HTTP 200 | 12 entidades | sbs_C_2024-04.xlsx
+[2026-09-24 23:02:16] C 2024-05 | HTTP 200 | 12 entidades | sbs_C_2024-05.xlsx
+[2026-09-24 23:02:23] C 2024-06 | HTTP 200 | 12 entidades | sbs_C_2024-06.xlsx
+[2026-09-24 23:02:32] C 2024-07 | HTTP 200 | 11 entidades | sbs_C_2024-07.xlsx
+[2026-09-24 23:02:42] C 2024-08 | HTTP 200 | 11 entidades | sbs_C_2024-08.xlsx
+[2026-09-24 23:02:52] C 2024-09 | HTTP 200 | 11 entidades | sbs_C_2024-09.xlsx
+[2026-09-24 23:03:00] C 2024-10 | HTTP 200 | 11 entidades | sbs_C_2024-10.xlsx
+[2026-09-24 23:03:08] C 2024-11 | HTTP 200 | 11 entidades | sbs_C_2024-11.xlsx
+[2026-09-24 23:03:16] C 2024-12 | HTTP 200 | 11 entidades | sbs_C_2024-12.xlsx
+[2026-09-24 23:03:23] C 2025-01 | HTTP 200 | 11 entidades | sbs_C_2025-01.xlsx
+[2026-09-24 23:03:31] C 2025-02 | HTTP 200 | 11 entidades | sbs_C_2025-02.xlsx
+[2026-09-24 23:03:38] C 2025-03 | HTTP 200 | 11 entidades | sbs_C_2025-03.xlsx
+[2026-09-24 23:03:46] C 2025-04 | HTTP 200 | 11 entidades | sbs_C_2025-04.xlsx
+[2026-09-24 23:03:54] C 2025-05 | HTTP 200 | 11 entidades | sbs_C_2025-05.xlsx
+[2026-09-24 23:04:01] C 2025-06 | HTTP 200 | 11 entidades | sbs_C_2025-06.xlsx
+[2026-09-24 23:04:09] C 2025-07 | HTTP 200 | 11 entidades | sbs_C_2025-07.xlsx
+[2026-09-24 23:04:16] C 2025-08 | HTTP 200 | 11 entidades | sbs_C_2025-08.xlsx
+[2026-09-24 23:04:24] C 2025-09 | HTTP 200 | 11 entidades | sbs_C_2025-09.xlsx
+[2026-09-24 23:04:31] C 2025-10 | HTTP 200 | 11 entidades | sbs_C_2025-10.xlsx
+[2026-09-24 23:04:39] C 2025-11 | HTTP 200 | 11 entidades | sbs_C_2025-11.xlsx
+[2026-09-24 23:04:48] C 2025-12 | HTTP 200 | 11 entidades | sbs_C_2025-12.xlsx
+[2026-09-24 23:04:48] Guardado datos_crudos_sbs_2024200504J.csv | filas: 1355
+[2026-09-24 23:04:48]    Banco: 36 meses, 631 filas
+[2026-09-24 23:04:48]    Financiera: 36 meses, 310 filas
+[2026-09-24 23:04:48]    Caja municipal: 36 meses, 414 filas
+[2026-09-24 23:04:48] Periodos que fallaron: ninguno
+[2026-09-24 23:04:48] === Fin 02_scraping_web.py ===
+[2026-09-24 23:32:47] === Inicio 02_scraping_web.py (SBS) ===
+[2026-09-24 23:32:49] Boletín B-2401 | HTTP 200 | 36 meses encontrados en el rango
+[2026-09-24 23:32:52] B-2401 2023-01 | HTTP 200 | 17 entidades | B-2401-en2023.XLS
+[2026-09-24 23:32:53] B-2401 2023-02 | HTTP 200 | 17 entidades | B-2401-fe2023.XLS
+[2026-09-24 23:32:55] B-2401 2023-03 | HTTP 200 | 17 entidades | B-2401-ma2023.XLS
+[2026-09-24 23:32:57] B-2401 2023-04 | HTTP 200 | 17 entidades | B-2401-ab2023.XLS
+[2026-09-24 23:32:59] B-2401 2023-05 | HTTP 200 | 17 entidades | B-2401-my2023.XLS
+[2026-09-24 23:33:01] B-2401 2023-06 | HTTP 200 | 17 entidades | B-2401-jn2023.XLS
+[2026-09-24 23:33:03] B-2401 2023-07 | HTTP 200 | 17 entidades | B-2401-jl2023.XLS
+[2026-09-24 23:33:05] B-2401 2023-08 | HTTP 200 | 17 entidades | B-2401-ag2023.XLS
+[2026-09-24 23:33:07] B-2401 2023-09 | HTTP 200 | 17 entidades | B-2401-se2023.XLS
+[2026-09-24 23:33:08] B-2401 2023-10 | HTTP 200 | 17 entidades | B-2401-oc2023.XLS
+[2026-09-24 23:33:10] B-2401 2023-11 | HTTP 200 | 17 entidades | B-2401-no2023.XLS
+[2026-09-24 23:33:12] B-2401 2023-12 | HTTP 200 | 17 entidades | B-2401-di2023.XLS
+[2026-09-24 23:33:14] B-2401 2024-01 | HTTP 200 | 17 entidades | B-2401-en2024.XLS
+[2026-09-24 23:33:16] B-2401 2024-02 | HTTP 200 | 17 entidades | B-2401-fe2024.XLS
+[2026-09-24 23:33:17] B-2401 2024-03 | HTTP 200 | 17 entidades | B-2401-ma2024.XLS
+[2026-09-24 23:33:19] B-2401 2024-04 | HTTP 200 | 17 entidades | B-2401-ab2024.XLS
+[2026-09-24 23:33:21] B-2401 2024-05 | HTTP 200 | 17 entidades | B-2401-my2024.XLS
+[2026-09-24 23:33:23] B-2401 2024-06 | HTTP 200 | 17 entidades | B-2401-jn2024.XLS
+[2026-09-24 23:33:24] B-2401 2024-07 | HTTP 200 | 17 entidades | B-2401-jl2024.XLS
+[2026-09-24 23:33:26] B-2401 2024-08 | HTTP 200 | 17 entidades | B-2401-ag2024.XLS
+[2026-09-24 23:33:28] B-2401 2024-09 | HTTP 200 | 17 entidades | B-2401-se2024.XLS
+[2026-09-24 23:33:30] B-2401 2024-10 | HTTP 200 | 17 entidades | B-2401-oc2024.XLS
+[2026-09-24 23:33:32] B-2401 2024-11 | HTTP 200 | 17 entidades | B-2401-no2024.XLS
+[2026-09-24 23:33:34] B-2401 2024-12 | HTTP 200 | 17 entidades | B-2401-di2024.XLS
+[2026-09-24 23:33:36] B-2401 2025-01 | HTTP 200 | 18 entidades | B-2401-en2025.XLS
+[2026-09-24 23:33:38] B-2401 2025-02 | HTTP 200 | 18 entidades | B-2401-fe2025.XLS
+[2026-09-24 23:33:40] B-2401 2025-03 | HTTP 200 | 18 entidades | B-2401-ma2025.XLS
+[2026-09-24 23:33:41] B-2401 2025-04 | HTTP 200 | 18 entidades | B-2401-ab2025.XLS
+[2026-09-24 23:33:43] B-2401 2025-05 | HTTP 200 | 18 entidades | B-2401-my2025.XLS
+[2026-09-24 23:33:45] B-2401 2025-06 | HTTP 200 | 19 entidades | B-2401-jn2025.XLS
+[2026-09-24 23:33:47] B-2401 2025-07 | HTTP 200 | 19 entidades | B-2401-jl2025.XLS
+[2026-09-24 23:33:49] B-2401 2025-08 | HTTP 200 | 19 entidades | B-2401-ag2025.XLS
+[2026-09-24 23:33:50] B-2401 2025-09 | HTTP 200 | 19 entidades | B-2401-se2025.XLS
+[2026-09-24 23:33:52] B-2401 2025-10 | HTTP 200 | 19 entidades | B-2401-oc2025.XLS
+[2026-09-24 23:33:55] B-2401 2025-11 | HTTP 200 | 19 entidades | B-2401-no2025.XLS
+[2026-09-24 23:33:56] B-2401 2025-12 | HTTP 200 | 19 entidades | B-2401-di2025.XLS
+[2026-09-24 23:34:00] Boletín B-3301 | HTTP 200 | 36 meses encontrados en el rango
+[2026-09-24 23:34:02] B-3301 2023-01 | HTTP 200 | 9 entidades | B-3301-en2023.XLS
+[2026-09-24 23:34:03] B-3301 2023-02 | HTTP 200 | 9 entidades | B-3301-fe2023.XLS
+[2026-09-24 23:34:05] B-3301 2023-03 | HTTP 200 | 9 entidades | B-3301-ma2023.XLS
+[2026-09-24 23:34:07] B-3301 2023-04 | HTTP 200 | 9 entidades | B-3301-ab2023.XLS
+[2026-09-24 23:34:09] B-3301 2023-05 | HTTP 200 | 9 entidades | B-3301-my2023.XLS
+[2026-09-24 23:34:10] B-3301 2023-06 | HTTP 200 | 9 entidades | B-3301-jn2023.XLS
+[2026-09-24 23:34:12] B-3301 2023-07 | HTTP 200 | 9 entidades | B-3301-jl2023.XLS
+[2026-09-24 23:34:14] B-3301 2023-08 | HTTP 200 | 8 entidades | B-3301-ag2023.XLS
+[2026-09-24 23:34:16] B-3301 2023-09 | HTTP 200 | 9 entidades | B-3301-se2023.XLS
+[2026-09-24 23:34:18] B-3301 2023-10 | HTTP 200 | 8 entidades | B-3301-oc2023.XLS
+[2026-09-24 23:34:20] B-3301 2023-11 | HTTP 200 | 9 entidades | B-3301-no2023.XLS
+[2026-09-24 23:34:22] B-3301 2023-12 | HTTP 200 | 9 entidades | B-3301-di2023.XLS
+[2026-09-24 23:34:23] B-3301 2024-01 | HTTP 200 | 9 entidades | B-3301-en2024.XLS
+[2026-09-24 23:34:25] B-3301 2024-02 | HTTP 200 | 9 entidades | B-3301-fe2024.XLS
+[2026-09-24 23:34:27] B-3301 2024-03 | HTTP 200 | 9 entidades | B-3301-ma2024.XLS
+[2026-09-24 23:34:29] B-3301 2024-04 | HTTP 200 | 10 entidades | B-3301-ab2024.XLS
+[2026-09-24 23:34:31] B-3301 2024-05 | HTTP 200 | 10 entidades | B-3301-my2024.XLS
+[2026-09-24 23:34:33] B-3301 2024-06 | HTTP 200 | 10 entidades | B-3301-jn2024.XLS
+[2026-09-24 23:34:34] B-3301 2024-07 | HTTP 200 | 10 entidades | B-3301-jl2024.XLS
+[2026-09-24 23:34:36] B-3301 2024-08 | HTTP 200 | 10 entidades | B-3301-ag2024.XLS
+[2026-09-24 23:34:38] B-3301 2024-09 | HTTP 200 | 9 entidades | B-3301-se2024.XLS
+[2026-09-24 23:34:40] B-3301 2024-10 | HTTP 200 | 9 entidades | B-3301-oc2024.XLS
+[2026-09-24 23:34:41] B-3301 2024-11 | HTTP 200 | 9 entidades | B-3301-no2024.XLS
+[2026-09-24 23:34:43] B-3301 2024-12 | HTTP 200 | 9 entidades | B-3301-di2024.XLS
+[2026-09-24 23:34:45] B-3301 2025-01 | HTTP 200 | 8 entidades | B-3301-en2025.XLS
+[2026-09-24 23:34:46] B-3301 2025-02 | HTTP 200 | 8 entidades | B-3301-fe2025.XLS
+[2026-09-24 23:34:48] B-3301 2025-03 | HTTP 200 | 8 entidades | B-3301-ma2025.XLS
+[2026-09-24 23:34:50] B-3301 2025-04 | HTTP 200 | 8 entidades | B-3301-ab2025.XLS
+[2026-09-24 23:34:52] B-3301 2025-05 | HTTP 200 | 8 entidades | B-3301-my2025.XLS
+[2026-09-24 23:34:54] B-3301 2025-06 | HTTP 200 | 7 entidades | B-3301-jn2025.XLS
+[2026-09-24 23:34:56] B-3301 2025-07 | HTTP 200 | 7 entidades | B-3301-jl2025.XLS
+[2026-09-24 23:34:58] B-3301 2025-08 | HTTP 200 | 7 entidades | B-3301-ag2025.XLS
+[2026-09-24 23:34:59] B-3301 2025-09 | HTTP 200 | 7 entidades | B-3301-se2025.XLS
+[2026-09-24 23:35:01] B-3301 2025-10 | HTTP 200 | 7 entidades | B-3301-oc2025.XLS
+[2026-09-24 23:35:03] B-3301 2025-11 | HTTP 200 | 7 entidades | B-3301-no2025.XLS
+[2026-09-24 23:35:05] B-3301 2025-12 | HTTP 200 | 7 entidades | B-3301-di2025.XLS
+[2026-09-24 23:35:08] Boletín C-1301 | HTTP 200 | 36 meses encontrados en el rango
+[2026-09-24 23:35:10] C-1301 2023-01 | HTTP 200 | 12 entidades | C-1301-en2023.XLS
+[2026-09-24 23:35:13] C-1301 2023-02 | HTTP 200 | 12 entidades | C-1301-fe2023.XLS
+[2026-09-24 23:35:14] C-1301 2023-03 | HTTP 200 | 12 entidades | C-1301-ma2023.XLS
+[2026-09-24 23:35:16] C-1301 2023-04 | HTTP 200 | 12 entidades | C-1301-ab2023.XLS
+[2026-09-24 23:35:18] C-1301 2023-05 | HTTP 200 | 12 entidades | C-1301-my2023.XLS
+[2026-09-24 23:35:20] C-1301 2023-06 | HTTP 200 | 12 entidades | C-1301-jn2023.XLS
+[2026-09-24 23:35:22] C-1301 2023-07 | HTTP 200 | 12 entidades | C-1301-jl2023.XLS
+[2026-09-24 23:35:23] C-1301 2023-08 | HTTP 200 | 12 entidades | C-1301-ag2023.XLS
+[2026-09-24 23:35:25] C-1301 2023-09 | HTTP 200 | 12 entidades | C-1301-se2023.XLS
+[2026-09-24 23:35:27] C-1301 2023-10 | HTTP 200 | 12 entidades | C-1301-oc2023.XLS
+[2026-09-24 23:35:29] C-1301 2023-11 | HTTP 200 | 12 entidades | C-1301-no2023.XLS
+[2026-09-24 23:35:31] C-1301 2023-12 | HTTP 200 | 12 entidades | C-1301-di2023.XLS
+[2026-09-24 23:35:33] C-1301 2024-01 | HTTP 200 | 12 entidades | C-1301-en2024.XLS
+[2026-09-24 23:35:35] C-1301 2024-02 | HTTP 200 | 12 entidades | C-1301-fe2024.XLS
+[2026-09-24 23:35:37] C-1301 2024-03 | HTTP 200 | 12 entidades | C-1301-ma2024.XLS
+[2026-09-24 23:35:39] C-1301 2024-04 | HTTP 200 | 12 entidades | C-1301-ab2024.XLS
+[2026-09-24 23:35:41] C-1301 2024-05 | HTTP 200 | 12 entidades | C-1301-my2024.XLS
+[2026-09-24 23:35:43] C-1301 2024-06 | HTTP 200 | 12 entidades | C-1301-jn2024.XLS
+[2026-09-24 23:35:45] C-1301 2024-07 | HTTP 200 | 11 entidades | C-1301-jl2024.XLS
+[2026-09-24 23:35:47] C-1301 2024-08 | HTTP 200 | 11 entidades | C-1301-ag2024.XLS
+[2026-09-24 23:35:49] C-1301 2024-09 | HTTP 200 | 11 entidades | C-1301-se2024.XLS
+[2026-09-24 23:35:51] C-1301 2024-10 | HTTP 200 | 11 entidades | C-1301-oc2024.XLS
+[2026-09-24 23:35:52] C-1301 2024-11 | HTTP 200 | 11 entidades | C-1301-no2024.XLS
+[2026-09-24 23:35:54] C-1301 2024-12 | HTTP 200 | 11 entidades | C-1301-di2024.XLS
+[2026-09-24 23:35:57] C-1301 2025-01 | HTTP 200 | 11 entidades | C-1301-en2025.XLS
+[2026-09-24 23:35:59] C-1301 2025-02 | HTTP 200 | 11 entidades | C-1301-fe2025.XLS
+[2026-09-24 23:36:01] C-1301 2025-03 | HTTP 200 | 11 entidades | C-1301-ma2025.XLS
+[2026-09-24 23:36:03] C-1301 2025-04 | HTTP 200 | 11 entidades | C-1301-ab2025.XLS
+[2026-09-24 23:36:05] C-1301 2025-05 | HTTP 200 | 11 entidades | C-1301-my2025.XLS
+[2026-09-24 23:36:07] C-1301 2025-06 | HTTP 200 | 11 entidades | C-1301-jn2025.XLS
+[2026-09-24 23:36:09] C-1301 2025-07 | HTTP 200 | 11 entidades | C-1301-jl2025.XLS
+[2026-09-24 23:36:10] C-1301 2025-08 | HTTP 200 | 11 entidades | C-1301-ag2025.XLS
+[2026-09-24 23:36:13] C-1301 2025-09 | HTTP 200 | 11 entidades | C-1301-se2025.XLS
+[2026-09-24 23:36:15] C-1301 2025-10 | HTTP 200 | 11 entidades | C-1301-oc2025.XLS
+[2026-09-24 23:36:17] C-1301 2025-11 | HTTP 200 | 11 entidades | C-1301-no2025.XLS
+[2026-09-24 23:36:19] C-1301 2025-12 | HTTP 200 | 11 entidades | C-1301-di2025.XLS
+[2026-09-24 23:36:20] Guardado datos_crudos_sbs_indicadores_2024200504J.csv | filas: 1353
+[2026-09-24 23:36:20]    Banco: 36 meses, 631 filas
+[2026-09-24 23:36:20]    Financiera: 36 meses, 308 filas
+[2026-09-24 23:36:20]    Caja municipal: 36 meses, 414 filas
+[2026-09-24 23:36:20] Indicadores que fallaron: ninguno
+[2026-09-24 23:36:20] === Fin 02_scraping_web.py ===
