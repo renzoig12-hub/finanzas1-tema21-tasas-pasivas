@@ -47,3 +47,7 @@ salidas/           tablas (CSV) y figuras (PNG) del artículo
 log_ejecucion.txt  fecha, hora, código HTTP y filas de cada extracción
 diccionario_variables.md, requirements.txt, .env.example, bitacora_ia.md
 ~~~
+
+## Verificación de reproducibilidad
+
+El 25 de setiembre de 2026 se clonó el repositorio en una carpeta limpia de Google Colab, se instalaron las librerías de requirements.txt y se ejecutaron 01_extraccion_api.py, 03_limpieza_datos.py y 04_analisis.py. El hash SHA-256 del archivo procesado regenerado coincidió exactamente con el declarado, y 04_analisis.py produjo las mismas tablas y figuras. El 26 de setiembre de 2026 se ajustaron las figuras al formato APA 7 (título y nota fuera de la imagen, en el artículo).

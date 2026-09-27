@@ -4,8 +4,8 @@
 Dep. Variable:         plazo_181_360d   R-squared:                       0.575
 Model:                            OLS   Adj. R-squared:                  0.573
 Method:                 Least Squares   F-statistic:                     44.08
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):           3.49e-13
-Time:                        03:36:34   Log-Likelihood:                -1633.7
+Date:                Sun, 27 Sep 2026   Prob (F-statistic):           3.49e-13
+Time:                        04:38:03   Log-Likelihood:                -1633.7
 No. Observations:                1106   AIC:                             3279.
 Df Residuals:                    1100   BIC:                             3310.
 Df Model:                           5                                         
@@ -35,8 +35,8 @@ Notes:
 Dep. Variable:         plazo_181_360d   R-squared:                       0.570
 Model:                            OLS   Adj. R-squared:                  0.568
 Method:                 Least Squares   F-statistic:                     40.52
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):           1.84e-12
-Time:                        03:36:34   Log-Likelihood:                -1607.6
+Date:                Sun, 27 Sep 2026   Prob (F-statistic):           1.84e-12
+Time:                        04:38:03   Log-Likelihood:                -1607.6
 No. Observations:                1082   AIC:                             3227.
 Df Residuals:                    1076   BIC:                             3257.
 Df Model:                           5                                         
@@ -66,8 +66,8 @@ Notes:
 Dep. Variable:         plazo_promedio   R-squared:                       0.713
 Model:                            OLS   Adj. R-squared:                  0.712
 Method:                 Least Squares   F-statistic:                     133.6
-Date:                Sat, 26 Sep 2026   Prob (F-statistic):           5.17e-20
-Time:                        03:36:34   Log-Likelihood:                -1378.2
+Date:                Sun, 27 Sep 2026   Prob (F-statistic):           5.17e-20
+Time:                        04:38:03   Log-Likelihood:                -1378.2
 No. Observations:                1106   AIC:                             2768.
 Df Residuals:                    1100   BIC:                             2798.
 Df Model:                           5                                         
